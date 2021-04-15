@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "tsc server.ts"
+    "start": "tsc && node dist/server.js"
   },
   "devDependencies": {
     "@types/node": "^14.14.39",
